@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maulana Idzhar Music</title>
+
+<!-- Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap" rel="stylesheet">
+
+<!-- Feather Icons -->
+<script src="https://unpkg.com/feather-icons"></script>
+
+<!-- My Style -->
+    <link rel="stylesheet" href="css/izcss">
+</head>
+<body>
+    
+ <!--Navbar start -->
+ <nav class="navbar">
+    <a href="#" class="navbar-logo">Idzhar<span>Music</span>.</a>
+    
+    <div class="navbar-nav">
+<a href="#">Home</a>
+<a href="#Library">Your Library</a>
+<a href="#Playlist">My Playlist</a>
+<a href="#Albums">Albums</a>
+    </div>
+
+    <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i>
+            <a href="#" id="headphones"><i data-feather="headphones"></i>
+        </a>
+    </div>
+ </nav>
+
+<!--Navbar end -->
+
+<!--Feather Icons -->
+<script>
+    feather.replace();
+  </script>
+
+</body>
+</html>
