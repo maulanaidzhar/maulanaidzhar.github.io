@@ -1,0 +1,87 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style header */
+  header {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    padding: 20px; /* Jarak antara konten dan tepi header */
+    text-align: center; /* Tengahkan teks dalam header */
+  }
+  
+  /* Style logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; /* Warna teks logo */
+  }
+  
+  /* Style navigasi */
+  nav {
+    margin-top: 20px; /* Jarak antara header dan navigasi */
+  }
+  
+  /* Style daftar navigasi */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px; /* Jarak antara item navigasi */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* Warna teks navigasi */
+  }
+  
+  /* Style tombol Cari */
+  .search-button {
+    background-color: #ff6600; /* Warna tombol Cari */
+    color: #fff; /* Warna teks tombol Cari */
+    padding: 10px 20px; /* Ukuran tombol Cari */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover pada tombol Cari */
+  .search-button:hover {
+    background-color: #ff9900; /* Warna latar belakang saat hover */
+  }
+  
+  /* Style kotak pencarian */
+  .search-box {
+    display: inline-block;
+    background-color: #fff; /* Warna latar belakang kotak pencarian */
+    border-radius: 5px;
+    margin-left: 20px; /* Jarak antara kotak pencarian dan tombol Cari */
+  }
+  
+  /* Style input pencarian */
+  .search-input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style ikon pencarian */
+  .search-icon {
+    color: #333; /* Warna ikon pencarian */
+    padding: 8px;
+    background-color: #ff6600; /* Warna latar belakang ikon pencarian */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover pada ikon pencarian */
+  .search-icon:hover {
+    background-color: #ff9900; /* Warna latar belakang ikon saat hover */
+  }
+  
